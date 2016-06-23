@@ -1,0 +1,31 @@
+{
+  "name": "mikser-guide",
+  "version": "0.0.2",
+  "description": "Visual guide linking web elements to documents content",
+  "main": "index.js",
+  "keywords": [
+    "guide",
+    "mikser"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "fs-extra-promise": "^0.3.1",
+    "browserify-css": "^0.9.1",
+    "clipboard": "^1.5.12",
+    "jquery": "^3.0.0",
+    "unicode-8.0.0": "^0.6.0",
+    "tipso": "^1.0.8",
+    "font-awesome": "^4.6.3",
+    "lodash": "^4.13.1",
+    "mousetrap": "^1.6.0",
+    "uuid": "^2.0.2",
+    "traverse": "^0.6.6",
+    "xregexp": "^3.1.1"
+  },
+  "author": "Almero Digital Marketing (http://almero.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almero-digital-marketing/mikser-guide.git"
+  },
+  "license": "MIT"
+}
