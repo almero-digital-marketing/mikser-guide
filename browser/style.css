@@ -1,5 +1,5 @@
-@import url('node_modules/font-awesome/css/font-awesome.css');
-@import url('node_modules/tipso/src/tipso.css');
+@import url('font-awesome/css/font-awesome.css');
+@import url('tipso/src/tipso.css');
 
 .tipso_style {
 	border: none;
