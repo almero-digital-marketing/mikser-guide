@@ -1,6 +1,7 @@
 'use strict'
-var Mousetrap = require('mousetrap');
 var $ = require('jquery');
+var Mousetrap = require('mousetrap');
+
 require('tipso');
 
 var Clipboard = require('clipboard');
