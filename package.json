@@ -1,6 +1,6 @@
 {
   "name": "mikser-guide",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Visual guide linking web elements to documents content",
   "main": "index.js",
   "keywords": [
@@ -10,13 +10,13 @@
   "dependencies": {
     "bluebird": "^3.4.0",
     "fs-extra-promise": "^0.3.1",
-    "browserify-css": "^0.9.1",
     "clipboard": "^1.5.12",
     "unicode-8.0.0": "^0.6.0",
     "tipso": "^1.0.8",
     "font-awesome": "^4.6.3",
     "lodash": "^4.13.1",
     "uuid": "^2.0.2",
+    "mousetrap": "^1.6.0",
     "traverse": "^0.6.6",
     "xregexp": "^3.1.1"
   },

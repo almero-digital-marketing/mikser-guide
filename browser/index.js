@@ -8,8 +8,6 @@ var Clipboard = require('clipboard');
 var GUIDE_PREFIX = 'guide';
 var state = JSON.parse(localStorage.getItem('mikser-guide') || '{"enabled": false}');
 
-require('./style.css');
-
 function filter(node) {
 	var text = node.nodeValue.trim();
 	if (text.substring(0, GUIDE_PREFIX.length) !== GUIDE_PREFIX) {
@@ -21,6 +19,7 @@ function filter(node) {
 
 module.exports = function (mikser) {
 	if (!document.createTreeWalker) return;
+	mikser.loadResource('/mikser/browser/guide/style.css');
 
 	function toggle(enabled) {
 		state.enabled = enabled;
