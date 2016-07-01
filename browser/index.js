@@ -19,7 +19,7 @@ function filter(node) {
 
 module.exports = function (mikser) {
 	if (!document.createTreeWalker) return;
-	mikser.loadResource('/mikser/browser/guide/style.css');
+	mikser.loadResource('/mikser/guide/style.css');
 
 	function toggle(enabled) {
 		state.enabled = enabled;
