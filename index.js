@@ -73,7 +73,7 @@ module.exports = function(mikser, context) {
 								});
 							} else {
 								let leafParent = _.get(document, this.parent.path);
-								if (leafParent.prototype) {
+								if (leafParent) {
 									Object.defineProperty(leafParent, '$' + this.key, {
 										get: function(){
 											return node;
