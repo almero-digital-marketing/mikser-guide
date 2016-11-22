@@ -73,11 +73,13 @@ module.exports = function(mikser, context) {
 								});
 							} else {
 								let leafParent = _.get(document, this.parent.path);
-								Object.defineProperty(leafParent, '$' + this.key, {
-									get: function(){
-										return node;
-									}
-								});
+								if (leafParent.prototype) {
+									Object.defineProperty(leafParent, '$' + this.key, {
+										get: function(){
+											return node;
+										}
+									});
+								}
 							}
 						}
 					});

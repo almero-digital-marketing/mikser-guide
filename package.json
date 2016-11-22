@@ -1,6 +1,6 @@
 {
   "name": "mikser-guide",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Visual guide linking web elements to documents content",
   "main": "index.js",
   "keywords": [
